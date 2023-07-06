@@ -8,11 +8,12 @@
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="fonts.css" />
     <link rel="stylesheet" href="desktop.css" />
+    <link rel="stylesheet" href="mobile.css" />
   </head>
   <body>
-    <nav class="left">
+    <nav class="left remove">
       <ul class="left__list">
-        <li class="left__list__item">
+        <li class="left__list__item remove">
           <img src="/images/Twitter Logo.svg" alt="" class="left__list__icon" />
           <a href="" class="left__list__link"></a>
         </li>
@@ -20,31 +21,34 @@
           <img src="/images/Home.svg" alt="" class="left__list__icon" />
           <a href="" class="left__list__link">Home</a>
         </li>
-        <li class="left__list__item">
+        <li class="left__list__item remove">
           <img src="/images/Hashtag.svg" alt="" class="left__list__icon" />
           <a href="" class="left__list__link">Explore</a>
+        </li>
+        <li class="left__list__item add">
+          <img src="/images/Search.svg" alt="" class="left__list__icon" />
         </li>
         <li class="left__list__item">
           <img src="/images/Notification.svg" alt="" class="left__list__icon" />
           <a href="" class="left__list__link">Notifications</a>
         </li>
         <li class="left__list__item">
-          <img src="/images/Message.svg" alt="" class="left__list__icon" />
+          <img src="/images/Message 1.svg" alt="" class="left__list__icon" />
           <a href="" class="left__list__link">Messages</a>
         </li>
-        <li class="left__list__item">
+        <li class="left__list__item remove">
           <img src="/images/Bookmark.svg" alt="" class="left__list__icon" />
           <a href="" class="left__list__link">Bookmarks</a>
         </li>
-        <li class="left__list__item">
+        <li class="left__list__item remove">
           <img src="/images/List.svg" alt="" class="left__list__icon" />
           <a href="" class="left__list__link">Lists</a>
         </li>
-        <li class="left__list__item">
+        <li class="left__list__item remove">
           <img src="/images/Profile Pic.svg" alt="" class="left__list__icon" />
           <a href="" class="left__list__link">Profile</a>
         </li>
-        <li class="left__list__item">
+        <li class="left__list__item remove">
           <img src="/images/More.svg" alt="" class="left__list__icon" />
           <a href="" class="left__list__link">More</a>
         </li>
@@ -78,10 +82,10 @@
             <img
               src="/images/Ellipse 1.svg"
               alt=""
-              class="center__form__icon"
+              class="center__form__icon remove"
             />
-            <img src="/images/Line 1.png" alt="" class="center__line" />
-            <img src="/images/+.svg" alt="" class="center__form__icon" />
+            <img src="/images/Line 1.png" alt="" class="center__line remove" />
+            <img src="/images/+.svg" alt="" class="center__form__icon remove" />
             <button class="center__btn">Tweet</button>
           </div>
         </div>
@@ -362,9 +366,7 @@
             </h2>
             <h3 class="right__suggestion__mention">@levraimcfly</h3>
           </div>
-          <div class="right__suggestion__button">
-            <button class="right__suggestion__btn">Follow</button>
-          </div>
+          <button class="right__suggestion__btn">Follow</button>
         </div>
         <div class="right__suggestion__item">
           <div class="right__suggestion__person">
@@ -385,9 +387,7 @@
             </h2>
             <h3 class="right__suggestion__mention">@jonhdoe</h3>
           </div>
-          <div class="right__suggestion__button">
-            <button class="right__suggestion__btn">Follow</button>
-          </div>
+          <button class="right__suggestion__btn">Follow</button>
         </div>
         <div class="right__suggestion__item">
           <div class="right__suggestion__person">
@@ -408,12 +408,10 @@
             </h2>
             <h3 class="right__suggestion__mention">@realjanice</h3>
           </div>
-          <div class="right__suggestion__button">
-            <button class="right__suggestion__btn">Follow</button>
-          </div>
+          <button class="right__suggestion__btn">Follow</button>
           <div class="right__suggestion__details"></div>
-          <h2 class="right__suggestion__more">Show more</h2>
         </div>
+        <h2 class="right__suggestion__more">Show more</h2>
       </aside>
     </section>
   </body>
